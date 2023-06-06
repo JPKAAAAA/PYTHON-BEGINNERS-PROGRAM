@@ -1,0 +1,15 @@
+dict={"ram":100,"suraj":100,"sagar":33,"tushar":100,"tarun":10}
+print(dict["ram"])
+print(dict.get("suraj"))
+print(dict)
+k=dict.values()
+print(k)
+k=dict.items()
+print(k)
+dict["sagar"]=90
+dict["samar"]=0
+print(dict)
+dict.pop("tarun")
+print(dict)
+dict.clear()
+print(dict)

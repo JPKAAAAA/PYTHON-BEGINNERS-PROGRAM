@@ -1,0 +1,31 @@
+#this program shows some list funcitons like 
+#insert(),pop(),remove(),append(),sort(),clear()
+
+
+fruit=["apple","mango","grapes","oranges","blackberry","banana","cherry"]
+print(fruit)
+print("adding strawberry in place of banana")
+fruit[5]='strawberry'
+print(fruit)
+print("adding guava between strawberry and cherry")
+fruit.insert(6,"guava")
+print(fruit)
+print("sorting list in ascending order")
+fruit.sort()
+print(fruit)
+print("sorting list in descending order")
+fruit.sort(reverse=True)
+print(fruit)
+print("deleting element 6 and apple")
+fruit.pop(6)
+fruit.remove("apple")
+print(fruit)
+print("deleting last element")
+fruit.pop()
+print(fruit)
+print("adding kiwi at last")
+fruit.append("kiwi")
+print(fruit)
+print("deleting all elements")
+fruit.clear()
+print(fruit)
